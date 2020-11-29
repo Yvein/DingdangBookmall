@@ -1,0 +1,467 @@
+@CHARSET "UTF-8";
+
+body {
+	overflow: inherit;
+	overflow-x: hidden;
+	margin: 0;
+	background-color: rgba(234,237,237,0.7)!important;
+}
+
+* {
+	margin: 0;
+	font-family:"Microsoft Yahei";
+	color: #666;
+}
+
+div{
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+}
+
+#header {
+	height: auto;
+	width: 100%;
+	padding-left: 30px;
+}
+
+.main {
+	height: auto;
+	width: 70%;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-left: 25px;
+	float: left;
+	background-color: white;
+	padding: 0 10px 0 10px;
+}
+
+#main{
+	height: auto;
+	width: 80%;
+	margin-top: 30px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	padding: 0 10px 0 10px;
+	min-height: 400px;
+}
+
+#bottom {
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	bottom:5px;
+	display: block;
+}
+
+.container{
+	display: block;
+}
+
+#book{
+	width: 100%;
+	height: 90%;
+	margin: auto;
+	
+}
+
+.b_list{
+	height:300px;
+	width:250px;
+	margin: 20px;
+	float: left;
+	margin-top:0px;
+	margin-bottom:0px;
+	border: 1px #e3e3e3 solid;
+}
+
+#page_nav{
+	width: 100%;
+	height: 10px;
+	margin: auto;
+	
+	text-align: center;
+}
+
+#pn_input {
+	width: 30px;
+	text-align: center;
+}
+
+.img_div{
+	height: 150px;
+	text-align: center;
+}
+
+.book_img {
+	height:150px;
+	width:150px;
+}
+
+.book_info {
+	
+	text-align: center;
+}
+
+.book_info div{
+	height: 10px;
+	width: 300px;
+	text-align: left;
+}
+
+.wel_word{
+	font-size: 48px;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.logo_img{
+	float: left;
+}
+
+#header div a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(102, 102, 102)!important;
+}
+
+#header div a:hover {
+	text-decoration: underline;
+	font-size: 20px;
+	color: #F44336!important;
+}
+
+#header div{
+	text-align: right;
+	margin-top: 25px;
+	display: block;
+	margin-right: 145px;
+}
+
+.book_cond{
+	margin-left: 500px;
+}
+
+.book_cond input{
+	width: 50px;
+	text-align: center;
+}
+
+
+/*登录页面CSS样式  */
+
+#login_header{
+	height: 82px;
+	width: 1200px;
+}
+
+.login_banner{
+	height:475px;
+	background-color: #39987c;
+}
+
+.login_form{
+	height:310px;
+	width:406px;
+	float: right;
+	margin-right:50px;
+	margin-top: 50px;
+	background-color: #fff;
+}
+
+#content {
+	height: 475px;
+	width: 1200px;
+}
+
+.login_box{
+	margin: 20px;
+	height: 260px;
+	width: 366px;
+}
+
+h1 {
+	font-size: 20px;
+}
+.msg_cont{
+	background: none repeat scroll 0 0 #fff6d2;
+    border: 1px solid #ffe57d;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+    border: none;
+}
+
+.msg_cont b {
+	background: url("../img/pwd-icons-new.png") no-repeat scroll -104px -22px rgba(0, 0, 0, 0);
+    display: block;
+    height: 17px;
+    left: 10px;
+    margin-top: -8px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+
+.form .itxt {
+    border: 0 none;
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+    border: 1px #e3e3e3 solid;
+}
+
+#sub_btn{
+	background-color: #39987c;
+	border: none;
+	color: #fff;
+	width: 360px;
+	height: 40px;
+}
+
+#l_content {
+	float: left;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+
+#l_content span {
+	font-size: 60px;
+	color: white;
+}
+
+.tit h1 {
+	float: left;
+	margin-top: 5px;
+}
+
+.tit a {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: red;
+	text-decoration: none;
+}
+
+.tit .errorMsg {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: red;
+}
+
+.tit {
+	height: 30px;
+}
+/*购物车*/
+#main table{
+	margin: auto;
+	margin-top: 28px;
+	border-collapse: collapse;
+}
+
+#main table td{
+	width: 180px;
+	text-align:center;
+	border-bottom: 1px #e3e3e3 solid;
+	padding: 10px;
+}
+
+#main tr{
+	color: #323232;
+}
+
+#title{
+	font-size: 18px!important;
+	color: black!important;
+	font-weight: bolder;
+}
+
+.cart_info{
+	width: 21%;
+	float: right;
+	background-color: white;
+	padding: 20px 10px 20px 0;
+	font-size: 25px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.cart_info span{
+	color: black!important;
+}
+
+#xiaoji{
+	padding: 10px 10px 10px 10px;
+	display: block;
+}
+
+#price{
+	padding: 10px 10px 10px 10px;
+	display: block;
+	font-weight: 600;
+}
+
+#jiezhang{
+	float: right;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height: 34px;
+	font-size: 16px;
+	background-color: rgba(240,200,80,0.8);
+	border-color:rgba(169,38,0,0.4);
+}
+
+#jiezhang a{
+	text-decoration: none;
+}
+
+.cart_img img{
+	width: 93px;
+	height: 130px;
+}
+
+.cart_img{
+	float: left;
+	margin: 10px 20px 0 15px;
+}
+
+#cart_span{
+	display: block;
+	margin-bottom: 15px;
+	color: rgb(36,113,133)!important;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.cart_intro{
+}
+
+.cart_item{
+	display: block;
+	height: 150px;
+}
+
+.updateCount{
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: rgb(240,242,242);
+}
+
+.cart_price{
+	color: black;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.cart_span {
+	color: rgb(36,133,113)!important;
+}
+
+.cart_span span{
+	color: red;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.cart_span a , td a{
+	font-size: 15px;
+	color: rgb(36,133,113);
+	text-decoration: none;
+}
+
+.cart_span a:hover, td a:hover{
+	color: rgb(169,38,0)!important;
+	text-decoration: underline;
+}
+
+#header div span {
+	margin: 10px;
+}
+
+#header div .um_span{
+	color: red;
+	font-size: 25px;
+	margin: 10px;
+}
+
+#header div a {
+	color: blue;
+}
+
+.nav{
+	width: 100%;
+	height: 55px;
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+.nav ul{
+	list-style: none;
+	padding-right: 60px;
+	padding-left: 60px;
+	color: rgba(255,255,255,0.9);
+}
+.nav li{
+	font-size: 16px;
+	line-height: 55px;
+	margin-right: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	float: right;
+	color: rgba(255,255,255,0.9);
+}
+.nav a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+}
+.nav a:hover{
+	color: #D9534F;
+}
+.nav li:first-child{
+	float: left;
+}
+.login-signup a{
+	padding-left: 6px;
+	border: 0px;
+}
+.nav-pull-down{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.nav-pull-down-action{
+	background-color: #fff;
+}
+
+.page-num{
+	text-align: center;
+}
+
+.active a{
+	background-color: rgba(0,0,0,0.6) !important;
+	border-color: rgba(0,0,0,0.6) !important;
+}
+
+
+#username{
+	color: white;
+}
